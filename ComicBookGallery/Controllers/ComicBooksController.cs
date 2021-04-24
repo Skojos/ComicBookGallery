@@ -10,6 +10,17 @@ namespace ComicBookGallery.Controllers
     {
 
 
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+
+        public ActionResult Detail()
+        {
+
+            return View();
+        }
 
     }
 }
